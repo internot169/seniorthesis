@@ -70,7 +70,3 @@ def make_email(start, max_len=200):
     return tok.decode(out[0], skip_special_tokens=True)
 
 train()
-
-start = "Subject: Meeting Tomorrow\n\nHi team,"
-email = make_email(start)
-print(email) 
